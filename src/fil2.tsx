@@ -1,7 +1,7 @@
 import React from 'react';
 
 type Props = {
-  keys: string;
+  customName: string;
 };
 
 type State = {
