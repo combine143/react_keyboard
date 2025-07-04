@@ -1,7 +1,5 @@
-import React from 'react';
+import { Helper } from './fil2';
 
-export const App: React.FC = () => (
-  <div className="App">
-    <p className="App__message">The last pressed key is [Enter]</p>
-  </div>
-);
+export const App: React.FC = () => {
+  return <Helper keys="helper" />;
+};
